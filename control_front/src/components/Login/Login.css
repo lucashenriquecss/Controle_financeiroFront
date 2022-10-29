@@ -3,7 +3,12 @@
     align-items:center;
     justify-content:center;
     flex-direction:column;
-    background-color:orange;
+    
+    margin-top:50px;
+    margin-left:200px;
+    width:150vh;
+    
+    
 }
 
 .login Form{
@@ -11,8 +16,21 @@
     max-width: 100%;
 }
 .box{
-    background-color:blue;
+    width:150vh;
+    height:400px;
+    background-color:white;
     display:flex;
-    justify-content:center;
+    justify-content: space-evenly;
+    align-items:center;
+    padding:15px;
+    border: 2px solid black;
+    border-radius: 5px;
+    
+    
+}
+.form-login{
+   
+}
+.cadastro{
     
 }
