@@ -1,0 +1,12 @@
+.cadastrar{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+
+}
+
+.cadastrar Form{
+    width:500px;
+    max-width: 100%;
+}
