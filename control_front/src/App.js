@@ -5,6 +5,7 @@ import { useState } from 'react';
 import Routes from "./routes.js";
 import Home from './pages/Home';
 import Login from './components/Login/Login';
+import Dashboard from './pages/Dashboard';
 
 function App() {
   //logado ou não
@@ -14,7 +15,7 @@ function App() {
   console.log(usuarioEstaLogado)
   return (
     <div className="App">
-      <Routes/>
+      <Dashboard/>
     </div>
   );
 }
